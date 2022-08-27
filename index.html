@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+
+</head>
+<script src="index.js"></script>
+
+<body>
+<div class="container1"> <h1>GPA Calculator</h1></div>    
+<div class="container2"> 
+    <div class="container3">   
+    <table >
+        <tr class="container4">
+            <th>Courses name</th>
+            <th>Obtained marks(1-100) </th>
+            <th>Credit Hours (1-4)</th>
+        </tr>
+
+        <tr>
+            <th><input type="text" id="c1"  value="" placeholder="Course one....."></th>
+            <th><input type="number" id="m1"  value="" pattern="[0-9]{2}" placeholder="Course one....."></th>
+            <th><input type="number" id="ch1"  value="" pattern="[1-4]{1}" placeholder="Course one....."></th>
+        </tr>
+
+        <tr>
+        
+        <th><input type="text" id="c2"  value="" placeholder="Course two....."></th>
+        <th><input type="number" id="m2"  value="" pattern="[0-9]{2}" placeholder="Course two....."></th>
+        <th><input type="number" id="ch2"  value="" pattern="[1-4]{1}" placeholder="Course two....."></th>
+
+        </tr>
+        <tr>
+
+        <th><input type="text" id="c3" name="c3" value="" placeholder="Course three....."></th>
+        <th><input type="number" id="m3" name="m3" value="" pattern="[0-9]{2}" placeholder="Course three....."></th>
+        <th><input type="number" id="ch3" name="ch3" value="" pattern="[1-4]{1}" placeholder="Course three....."></th>
+
+        </tr>
+
+        <tr>
+        <th><input type="text" id="c4" name="c4" value="" placeholder="Course four....."></th>
+        <th><input type="number" id="m4" name="m4" value="" pattern="[0-9]{2}" placeholder="Course four....."></th>
+        <th><input type="number" id="ch4" name="ch4" value="" pattern="[1-4]{1}" placeholder="Course four....."></th>
+        </tr>
+
+        <tr>
+
+        
+        <th><input type="text" id="c5" name="c5" value="" placeholder="Course five....."></th>
+        <th><input type="number" id="m5" name="m5" value="" pattern="[0-9]{2}" placeholder="Course five....."></th>
+        <th><input type="number" id="ch5" name="ch5" value="" pattern="[1-4]{1}" placeholder="Course five....."></th>
+
+        </tr>
+        </table>
+        </div>
+    <div class="container5" ><button class="button" onclick="StoreValue()">Calculate GPA</button>
+
+    <p id="demo"></p>
+    </div>
+</div>   
+</body>
+</html>
