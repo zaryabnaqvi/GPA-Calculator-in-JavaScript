@@ -27,7 +27,7 @@ function MarksIntoGPA(marks){
         else if (54<=marks<=56){
             return 1.4;
         }
-        else if (66<=marks<=64){
+        else if (50<=marks<=64){
             return 1;
         } 
         else{
